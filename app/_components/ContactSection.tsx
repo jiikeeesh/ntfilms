@@ -82,7 +82,7 @@ export default function ContactSection() {
       
       {/* Background Glow */}
       <motion.div 
-        className="absolute top-1/4 -left-64 w-[500px] h-[500px] bg-[#c9a84c]/10 rounded-full blur-[120px] pointer-events-none"
+        className="absolute top-1/4 -left-64 w-[500px] h-[500px] bg-[#3b82f6]/10 rounded-full blur-[120px] pointer-events-none"
         animate={{
           scale: [1, 1.2, 1],
           opacity: [0.3, 0.5, 0.3],
@@ -90,7 +90,7 @@ export default function ContactSection() {
         transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
       />
       <motion.div 
-        className="absolute bottom-1/4 -right-64 w-[600px] h-[600px] bg-[#e8cc80]/5 rounded-full blur-[150px] pointer-events-none"
+        className="absolute bottom-1/4 -right-64 w-[600px] h-[600px] bg-[#60a5fa]/5 rounded-full blur-[150px] pointer-events-none"
         animate={{
           scale: [1, 1.1, 1],
           opacity: [0.2, 0.4, 0.2],
@@ -110,24 +110,24 @@ export default function ContactSection() {
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
             <h2 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight mb-4 sm:mb-6 leading-tight font-serif">
-              Let&apos;s create something <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#e8cc80] to-[#c9a84c] italic">unforgettable.</span>
+              Let&apos;s create something <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#60a5fa] to-[#3b82f6] italic">unforgettable.</span>
             </h2>
             <p className="text-lg sm:text-xl text-[#d4cfc5] mb-8 sm:mb-12 max-w-md">
               Got a wild idea or a strict brief? We want to hear it. Drop the details below, and we'll get back to you within 24 hours.
             </p>
 
-            {/* Trust Signal */}
+            {/* CEO Message */}
             <div className="p-5 sm:p-6 bg-[#111111]/50 backdrop-blur-sm border border-[rgba(255,255,255,0.07)] rounded-2xl">
               <p className="text-[#d4cfc5] italic mb-4 text-sm sm:text-base">
-                "Working with them was the best investment we made this year. The visual storytelling perfectly captured our brand's essence."
+                "My goal is to capture your most precious moments and tell your story through a cinematic lens. I look forward to working with you."
               </p>
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#e8cc80] to-[#c9a84c] flex items-center justify-center font-bold text-black">
-                  SJ
+                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#60a5fa] to-[#3b82f6] flex items-center justify-center font-bold text-black">
+                  NT
                 </div>
                 <div>
-                  <p className="font-medium text-sm text-[#f5f0e8]">Sarah Jenkins</p>
-                  <p className="text-xs text-[#888888]">CEO, Creative Studio</p>
+                  <p className="font-medium text-sm text-[#f5f0e8]">Nikhil Tuladhar</p>
+                  <p className="text-xs text-[#888888]">CEO, NT Films</p>
                 </div>
               </div>
             </div>
@@ -154,7 +154,7 @@ export default function ContactSection() {
                     animate={{ scale: 1 }}
                     transition={{ type: "spring", bounce: 0.5, delay: 0.2 }}
                   >
-                    <CheckCircle2 className="w-20 h-20 text-[#c9a84c] mb-6" />
+                    <CheckCircle2 className="w-20 h-20 text-[#3b82f6] mb-6" />
                   </motion.div>
                   <h3 className="text-3xl font-bold mb-4 font-serif text-[#f5f0e8]">Got it!</h3>
                   <p className="text-[#888888]">
@@ -170,7 +170,7 @@ export default function ContactSection() {
                   className="bg-[#111111]/80 backdrop-blur-md border border-[rgba(255,255,255,0.07)] rounded-3xl p-6 sm:p-8 lg:p-10 shadow-2xl relative overflow-hidden group w-full"
                 >
                   {/* Subtle border glow following mouse (CSS only approach for simplicity in snippet) */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-[#c9a84c]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
+                  <div className="absolute inset-0 bg-gradient-to-br from-[#3b82f6]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
 
                   <div className="space-y-4 sm:space-y-6 relative z-10">
                     {/* Name Field */}
@@ -184,7 +184,7 @@ export default function ContactSection() {
                         onChange={handleInputChange}
                         placeholder="Jane Doe"
                         whileFocus={{ scale: 1.01 }}
-                        className={`w-full bg-[#080808] border ${errors.name ? 'border-red-500/50 focus:border-red-500 focus:ring-red-500/20' : 'border-[rgba(255,255,255,0.07)] focus:border-[#c9a84c] focus:ring-[#c9a84c]/20'} rounded-xl px-4 py-3 text-[#f5f0e8] placeholder:text-[#555555] outline-none transition-all focus:ring-2`}
+                        className={`w-full bg-[#080808] border ${errors.name ? 'border-red-500/50 focus:border-red-500 focus:ring-red-500/20' : 'border-[rgba(255,255,255,0.07)] focus:border-[#3b82f6] focus:ring-[#3b82f6]/20'} rounded-xl px-4 py-3 text-[#f5f0e8] placeholder:text-[#555555] outline-none transition-all focus:ring-2`}
                       />
                       <AnimatePresence>
                         {errors.name && (
@@ -207,7 +207,7 @@ export default function ContactSection() {
                           onChange={handleInputChange}
                           placeholder="jane@company.com"
                           whileFocus={{ scale: 1.01 }}
-                          className={`w-full bg-[#080808] border ${errors.email ? 'border-red-500/50 focus:border-red-500 focus:ring-red-500/20' : 'border-[rgba(255,255,255,0.07)] focus:border-[#c9a84c] focus:ring-[#c9a84c]/20'} rounded-xl px-4 py-3 text-[#f5f0e8] placeholder:text-[#555555] outline-none transition-all focus:ring-2`}
+                          className={`w-full bg-[#080808] border ${errors.email ? 'border-red-500/50 focus:border-red-500 focus:ring-red-500/20' : 'border-[rgba(255,255,255,0.07)] focus:border-[#3b82f6] focus:ring-[#3b82f6]/20'} rounded-xl px-4 py-3 text-[#f5f0e8] placeholder:text-[#555555] outline-none transition-all focus:ring-2`}
                         />
                         {/* Inline Valid Check */}
                         <AnimatePresence>
@@ -238,7 +238,7 @@ export default function ContactSection() {
                         onChange={handleInputChange}
                         placeholder="+1 (555) 000-0000"
                         whileFocus={{ scale: 1.01 }}
-                        className={`w-full bg-[#080808] border border-[rgba(255,255,255,0.07)] focus:border-[#c9a84c] focus:ring-[#c9a84c]/20 rounded-xl px-4 py-3 text-[#f5f0e8] placeholder:text-[#555555] outline-none transition-all focus:ring-2`}
+                        className={`w-full bg-[#080808] border border-[rgba(255,255,255,0.07)] focus:border-[#3b82f6] focus:ring-[#3b82f6]/20 rounded-xl px-4 py-3 text-[#f5f0e8] placeholder:text-[#555555] outline-none transition-all focus:ring-2`}
                       />
                     </div>
 
@@ -246,7 +246,7 @@ export default function ContactSection() {
                     <div>
                       <div className="flex justify-between items-center mb-2">
                         <label htmlFor="budget" className="block text-xs font-semibold text-[#a0a0a0] uppercase tracking-[0.15em]">Project Budget</label>
-                        <span className="text-[#c9a84c] font-semibold text-sm">
+                        <span className="text-[#3b82f6] font-semibold text-sm">
                           {parseInt(formData.budget) >= 20000 ? "$20,000+" : `$${parseInt(formData.budget).toLocaleString()}`}
                         </span>
                       </div>
@@ -261,7 +261,7 @@ export default function ContactSection() {
                           step="500"
                           value={formData.budget}
                           onChange={handleInputChange}
-                          className="w-full h-1.5 bg-[rgba(255,255,255,0.05)] rounded-lg appearance-none cursor-pointer accent-[#c9a84c] focus:outline-none focus:ring-2 focus:ring-[#c9a84c]/20"
+                          className="w-full h-1.5 bg-[rgba(255,255,255,0.05)] rounded-lg appearance-none cursor-pointer accent-[#3b82f6] focus:outline-none focus:ring-2 focus:ring-[#3b82f6]/20"
                         />
                         <div className="flex justify-between text-[10px] text-[#555555] mt-3 font-mono">
                           <span>$1k</span>
@@ -282,7 +282,7 @@ export default function ContactSection() {
                         placeholder="Tell us briefly about your goals, timeline, and any limits..."
                         rows={4}
                         whileFocus={{ scale: 1.01 }}
-                        className={`w-full bg-[#080808] border ${errors.details ? 'border-red-500/50 focus:border-red-500 focus:ring-red-500/20' : 'border-[rgba(255,255,255,0.07)] focus:border-[#c9a84c] focus:ring-[#c9a84c]/20'} rounded-xl px-4 py-3 text-[#f5f0e8] placeholder:text-[#555555] outline-none transition-all focus:ring-2 resize-none`}
+                        className={`w-full bg-[#080808] border ${errors.details ? 'border-red-500/50 focus:border-red-500 focus:ring-red-500/20' : 'border-[rgba(255,255,255,0.07)] focus:border-[#3b82f6] focus:ring-[#3b82f6]/20'} rounded-xl px-4 py-3 text-[#f5f0e8] placeholder:text-[#555555] outline-none transition-all focus:ring-2 resize-none`}
                       />
                       <AnimatePresence>
                         {errors.details && (
@@ -299,7 +299,7 @@ export default function ContactSection() {
                       disabled={formState === "loading"}
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
-                      className="w-full relative overflow-hidden bg-[#c9a84c] text-black font-semibold rounded-xl py-4 flex items-center justify-center gap-2 mt-4 hover:shadow-[0_0_20px_rgba(201,168,76,0.3)] transition-all disabled:opacity-70 disabled:cursor-not-allowed group uppercase tracking-widest text-[11px]"
+                      className="w-full relative overflow-hidden bg-[#3b82f6] text-black font-semibold rounded-xl py-4 flex items-center justify-center gap-2 mt-4 hover:shadow-[0_0_20px_rgba(201,168,76,0.3)] transition-all disabled:opacity-70 disabled:cursor-not-allowed group uppercase tracking-widest text-[11px]"
                     >
                       <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-[100%] group-hover:animate-[shimmer_1.5s_infinite]" />
                       

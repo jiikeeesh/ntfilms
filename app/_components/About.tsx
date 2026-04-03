@@ -83,7 +83,7 @@ export default function About() {
 
             <div className="space-y-4 animate-on-scroll delay-200">
               <p className="text-[var(--text-muted)] leading-8 text-[15px]">
-                Hi, I&apos;m <strong className="text-[var(--text-primary)]">Nikhil Tuladhar</strong> — a
+                Hi, I&apos;m <strong className="text-[var(--text-primary)]">Nikhil Tuladhar</strong> — Founder & CEO of NT Films, a
                 professional photographer and filmmaker based in Kathmandu, Nepal. With over five
                 years of experience, I have dedicated my craft to capturing the raw beauty, emotion,
                 and untold stories that exist in every frame.

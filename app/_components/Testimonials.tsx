@@ -13,7 +13,7 @@ const testimonials = [
       "Nikhil captured our wedding day so beautifully — every frame felt like a painting. We cried watching our highlight film. He is not just a photographer, he is a true artist.",
     avatar: "/images/avatar-wedding.png",
     initials: "PS",
-    color: "#c9a84c",
+    color: "#3b82f6",
   },
   {
     name: "Rajan Maharjan",
@@ -35,7 +35,7 @@ const testimonials = [
       "Our pre-wedding shoot in Pokhara was a dream. Nikhil knew exactly how to direct us and the results were beyond our expectations. Every photo tells a story.",
     avatar: "/images/avatar-woman.png",
     initials: "SG",
-    color: "#c9a84c",
+    color: "#3b82f6",
   },
   {
     name: "Deepak Tamang",
@@ -57,7 +57,7 @@ const testimonials = [
       "From first consultation to final delivery, working with Nikhil was seamless. He made us feel so at ease and the photos are timeless. Highly recommend to every couple!",
     avatar: "/images/avatar-wedding.png",
     initials: "AP",
-    color: "#c9a84c",
+    color: "#3b82f6",
   },
 ];
 

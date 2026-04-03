@@ -2,23 +2,23 @@
 
 /* ── Design Tokens ───────────────────────────────────────── */
 :root {
-  --bg-primary: #080808;
-  --bg-surface: #111111;
-  --bg-surface-2: #1a1a1a;
-  --bg-surface-3: #222222;
-  --bg-glass: rgba(10, 10, 10, 0.75);
-  --accent-gold: #c9a84c;
-  --accent-gold-light: #e8cc80;
-  --accent-gold-dim: rgba(201, 168, 76, 0.12);
-  --accent-gold-glow: rgba(201, 168, 76, 0.25);
-  --text-primary: #f5f0e8;
-  --text-secondary: #d4cfc5;
-  --text-muted: #888888;
-  --text-dim: #555555;
+  --bg-primary: #020617;
+  --bg-surface: #0f172a;
+  --bg-surface-2: #1e293b;
+  --bg-surface-3: #334155;
+  --bg-glass: rgba(2, 6, 23, 0.75);
+  --accent-gold: #3b82f6;
+  --accent-gold-light: #60a5fa;
+  --accent-gold-dim: rgba(59, 130, 246, 0.12);
+  --accent-gold-glow: rgba(59, 130, 246, 0.25);
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  --text-dim: #64748b;
   --border: rgba(255, 255, 255, 0.07);
   --border-hover: rgba(255, 255, 255, 0.14);
-  --border-gold: rgba(201, 168, 76, 0.28);
-  --shadow-gold: 0 0 40px rgba(201, 168, 76, 0.1);
+  --border-gold: rgba(59, 130, 246, 0.28);
+  --shadow-gold: 0 0 40px rgba(59, 130, 246, 0.1);
   --shadow-card: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
   --radius-sm: 2px;
   --radius: 4px;
@@ -104,8 +104,8 @@ img { display: block; }
   50%       { transform: translateY(-8px); }
 }
 @keyframes pulse-gold {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(201, 168, 76, 0.4); }
-  50%       { box-shadow: 0 0 0 14px rgba(201, 168, 76, 0); }
+  0%, 100% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4); }
+  50%       { box-shadow: 0 0 0 14px rgba(59, 130, 246, 0); }
 }
 @keyframes scroll-bounce {
   0%, 100% { transform: translateY(0); opacity: 1; }
@@ -235,7 +235,7 @@ img { display: block; }
 .btn-primary:hover::after { opacity: 1; }
 .btn-primary:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 35px rgba(201, 168, 76, 0.4);
+  box-shadow: 0 10px 35px rgba(59, 130, 246, 0.4);
 }
 .btn-primary:active { transform: translateY(-1px); }
 
@@ -295,7 +295,7 @@ img { display: block; }
 
 /* ── Glass Effect ────────────────────────────────────────── */
 .glass {
-  background: rgba(16, 16, 16, 0.8);
+  background: rgba(15, 23, 42, 0.8);
   backdrop-filter: blur(24px) saturate(1.2);
   -webkit-backdrop-filter: blur(24px) saturate(1.2);
   border: 1px solid var(--border);
@@ -352,7 +352,7 @@ img { display: block; }
   position: fixed;
   inset: 0;
   z-index: 9999;
-  background: rgba(4, 4, 4, 0.96);
+  background: rgba(2, 6, 23, 0.96);
   backdrop-filter: blur(20px);
   display: flex;
   align-items: center;
