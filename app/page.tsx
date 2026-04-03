@@ -5,7 +5,7 @@ import About from "./_components/About";
 import Services from "./_components/Services";
 import VideoShowcase from "./_components/VideoShowcase";
 import Testimonials from "./_components/Testimonials";
-import Contact from "./_components/Contact";
+import ContactSection from "./_components/ContactSection";
 import Footer from "./_components/Footer";
 import ScrollObserver from "./_components/ScrollObserver";
 
@@ -55,8 +55,8 @@ export default function Home() {
         {/* Divider */}
         <div className="divider" />
 
-        {/* 7. Contact */}
-        <Contact />
+        {/* 7. Contact (Reactive) */}
+        <ContactSection />
       </main>
 
       {/* 8. Footer */}

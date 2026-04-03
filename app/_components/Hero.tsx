@@ -181,7 +181,7 @@ export default function Hero() {
 
         {/* Stats */}
         <div
-          className="flex items-center justify-center gap-10 sm:gap-16 mt-20 pt-8 border-t border-[var(--border)]"
+          className="grid grid-cols-2 sm:flex sm:flex-row items-center justify-center gap-8 sm:gap-16 mt-16 sm:mt-20 pt-8 border-t border-[var(--border)]"
           style={{ animation: "fadeIn 1s ease 1.2s both" }}
         >
           {[

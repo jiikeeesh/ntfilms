@@ -54,7 +54,7 @@ export default function VideoShowcase() {
         </div>
 
         {/* Video Grid */}
-        <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {videos.map((video, i) => (
             <div
               key={i}
@@ -83,6 +83,7 @@ export default function VideoShowcase() {
                     alt={video.title}
                     fill
                     className="object-cover group-hover:scale-[1.05] transition-transform duration-700 ease-in-out mix-blend-luminosity opacity-80 group-hover:mix-blend-normal group-hover:opacity-100"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
                   
                   {/* Cinematic gradient overlay */}
